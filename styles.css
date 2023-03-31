@@ -1,0 +1,702 @@
+#world {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 500px;
+}
+
+#background {
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    background-size: cover;
+}
+
+#game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 500px;
+    border: 4px solid black;
+}
+
+#gameover {
+    height: 500px;
+    width: 1000px;
+    position: absolute;
+    background-image: url(GAMEOVER.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+#cloud1 {
+    position: absolute;
+}
+
+
+#cloud2 {
+    position: absolute;
+}
+
+#dino {
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    left: 100px;
+    background-size: cover;
+    background-color: transparent;
+}
+
+/*#dog {
+    height: 58px;
+    width: 64.8px;
+    position: absolute;
+    bottom: 19px;
+    left: 20px;
+    background-size: cover;
+    background-color: transparent;
+}
+
+.dogIdle {
+    background-image: url(dog.png);
+}
+
+.dogRun {
+    background-image: url(dogAnm.png);
+    animation: run 0.35s steps(2) infinite;
+}*/
+
+@keyframes run {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+
+#transition {
+    height: 500px;
+    width: 1000px;
+    bottom: 0px;
+    position: absolute;
+    background-size: cover;
+    background-image: url(cloudtransition.png);
+}
+
+.trAnimate {
+    animation: trsAnm 1.5s linear;
+}
+
+#cat {
+    position: absolute;
+    height: 150px;
+    width: 170px;
+    background-image: url(cat\ pic.png);
+    left: 400px;
+    bottom: -28px;
+    background-size: cover;
+}
+
+#chatbox {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: 320px;
+    bottom: 50px;
+    background-size: cover;
+    background-image: url(pT78g5aGc.png);
+}
+
+#obstacleJ1 {
+    height: 90px;
+    width: 84px;
+    position: absolute;
+    bottom: 22px;
+    left: 930px;
+    background: url(obstacle\ 1\ jungle.png);
+    background-size: cover;
+}
+
+
+#obstacleJ2 {
+    height: 80px;
+    width: 90px;
+    position: absolute;
+    bottom: 22px;
+    left: 930px;
+    background-color: transparent;
+    background: url(obstacle\ 2\ jungle.png);
+    background-size: cover;
+}
+
+#obstacleJ3 {
+    height: 200px;
+    width: 84px;
+    position: absolute;
+    bottom: 22px;
+    left: 930px;
+    background-color: transparent;
+    background-image: url(obstacle\ 3\ jungle.png);
+    background-size: cover;
+}
+
+#obstacleJ4 {
+    height: 200px;
+    width: 74px;
+    position: absolute;
+    bottom: 22px;
+    left: 930px;
+    background-color: transparent;
+    background-image: url(obstacle\ 4\ jungle.png);
+    background-size: cover;
+}
+
+
+
+#obstacleC1 {
+    height: 90px;
+    width: 84px;
+    position: absolute;
+    bottom: 22px;
+    left: 930px;
+    background: url(obstacle\ 1\ city.png);
+    background-size: cover;
+}
+
+
+#obstacleC2 {
+    height: 90px;
+    width: 80px;
+    position: absolute;
+    bottom: 22px;
+    left: 930px;
+    background-color: transparent;
+    background: url(obstacle\ 2\ city.png);
+    background-size: cover;
+}
+
+#obstacleC3 {
+    height: 200px;
+    width: 95px;
+    position: absolute;
+    bottom: 22px;
+    left: 930px;
+    background-color: transparent;
+    background-image: url(obstacle\ 3\ city.png);
+    background-size: cover;
+}
+
+#obstacleC4 {
+    height: 200px;
+    width: 95px;
+    position: absolute;
+    bottom: 22px;
+    left: 930px;
+    background-color: transparent;
+    background-image: url(obstacle\ 4\ city.png);
+    background-size: cover;
+}
+
+#obstacleS1 {
+    height: 90px;
+    width: 69px;
+    position: absolute;
+    bottom: 22px;
+    left: 930px;
+    background: url(obstacle\ 1\ space.png);
+    background-size: cover;
+}
+
+
+#obstacleS2 {
+    height: 95px;
+    width: 60px;
+    position: absolute;
+    bottom: 22px;
+    left: 930px;
+    background-color: transparent;
+    background: url(obstacle\ 2\ space.png);
+    background-size: cover;
+}
+
+#obstacleS3 {
+    height: 200px;
+    width: 89px;
+    position: absolute;
+    bottom: 22px;
+    left: 930px;
+    background-color: transparent;
+    background-image: url(obstacle\ 3\ space.png);
+    background-size: cover;
+}
+
+#obstacleS4 {
+    height: 200px;
+    width: 80px;
+    position: absolute;
+    bottom: 22px;
+    left: 930px;
+    background-color: transparent;
+    background-image: url(obstacle\ 4\ space.png);
+    background-size: cover;
+}
+
+
+.approach {
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no repeat;
+    animation-name: approach;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 1.0, 1.0);
+}
+
+#startscreen {
+    font-size: 4vmin;
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    color: yellow;
+    background-image: url(jupiter.jpg);
+    background-size: contain;
+    font-weight: 1000;
+    user-select: none;
+    text-shadow: 0 3px black;
+}
+
+#restart {
+    font-size: 5vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: red;
+    font-weight: 500;
+    user-select: none;
+    text-shadow: -2px 2px white;
+    font-family: fantasy;
+}
+
+#description1 {
+    font-size: 3vmin;
+    padding: 15px;
+    position: absolute;
+    left: 52%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: black;
+    background-size: contain;
+    font-weight: 1000;
+    user-select: none;
+}
+
+#description2 {
+    font-size: 3vmin;
+    padding: 15px;
+    position: absolute;
+    left: 52%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: black;
+    background-size: contain;
+    font-weight: 1000;
+    user-select: none;
+}
+
+#lvl {
+    position: absolute;
+    font-size: 10vmin;
+    font-family: fantasy;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: 500;
+    user-select: none;
+}
+
+#nxt {
+    position: absolute;
+    font-size: 10vmin;
+    font-family: fantasy;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: 500;
+    user-select: none;
+}
+
+#deadscreen {
+    position: absolute;
+    height: 500px;
+    width: 1000px;
+    background-image: url(pixel-world-1212023.png);
+    background-size: cover;
+    opacity: 1;
+}
+
+.deadTr {
+    animation: deadTr 0.5s linear;
+}
+
+@keyframes deadTr {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+#username {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    font-weight: bolder;
+    font-size: 3vmin;
+    user-select: none;
+    color: white;
+    text-shadow: 3px 0 black;
+}
+
+#score {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    font-weight: bolder;
+    font-size: 3vmin;
+    user-select: none;
+    color: white;
+    text-shadow: 3px 0 black;
+}
+
+#highscore {
+    position: absolute;
+    top: 55px;
+    right: 40px;
+    font-weight: bolder;
+    font-size: 3vmin;
+    user-select: none;
+    color: white;
+    text-shadow: 3px 0 black;
+}
+
+#gameover {
+    position: absolute;
+    height: 500px;
+    width: 800px;
+    background-size: contain;
+    background-position: center;
+    background-image: url(GAMEOVER.png);
+    left: 100px;
+    opacity: 1;
+}
+
+#ground {
+    position: absolute;
+    width: 1000px;
+    height: 20px;
+    bottom: 0px;
+    background-image: url(road\ final\ game.png);
+    background-size: contain;
+}
+
+.walkOver {
+    animation: walkOver 50s linear infinite;
+}
+
+@keyframes walkOver {
+    0% {
+        background-position: 300%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+body {
+    background-image: url(anime-girl-city-building-height-4k-tc.jpg);
+    overflow: hidden;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#road_border {
+    position: absolute;
+    width: 1000px;
+    height: 3px;
+    background-color: black;
+    bottom: 20px;
+}
+
+.animationJump {
+    bottom: 6px;
+    background-image: url(dinojump.png);
+    background-size: cover;
+    animation: jump 0.5s linear;
+}
+
+.animationLongJump {
+    bottom: 6px;
+    background-image: url(dinojump.png);
+    background-size: cover;
+    animation: longjump 0.75s linear;
+}
+
+.animationRun {
+    bottom: 6px;
+    background-image: url([removal.ai]_tmp-6402eb491b1dc.png);
+    background-size: cover;
+    animation: walk 0.55s steps(5) infinite;
+    background-color: transparent;
+}
+
+.animationIdle {
+    bottom: 6px;
+    background-image: url(gaming_DinoSprites_idle-removebg-preview.png);
+    background-size: cover;
+    animation: walk 0.35s steps(3) infinite;
+}
+
+.hideDisplay {
+    display: none;
+}
+
+.hideDisplayPr {
+    display: none;
+}
+
+.bgInt {
+    background: url(bg1.png);
+}
+
+.backgroundMvt {
+    animation: shift 30s linear infinite, changes 300s steps(1) infinite; 
+}
+
+.cloud1Mvt {
+    background-image: url(cloud\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 70px;
+    top: 35%;
+    animation: move1 30s linear infinite;
+    opacity: 0.9;
+}
+
+.cloud2Mvt {
+    background-image: url(cloud\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 75px;
+    top: 25%;
+    animation: move2 30s linear infinite;
+    opacity: 0.75;
+}
+
+@keyframes move2 {
+    0%
+    {
+        position: absolute;
+        background-position: 300%;
+    }
+    100%
+    {
+        background-position: -30%;
+    }
+}
+
+@keyframes move1 {
+    0%
+    {
+        position: absolute;
+        background-position: 250%;
+    }
+
+    100%
+    {
+
+        background-position: -10%;
+    }
+}
+
+@keyframes shift {
+    0%
+    {
+        background-position: 0%;
+    }
+
+    100%
+    {
+        position: absolute;
+        background-position: 100%;
+    }
+}
+
+@keyframes walk {
+    0%
+    {
+        position: absolute;
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 100%;
+    }
+}
+
+@keyframes walkinverse{
+    0%
+    {
+        position: absolute;
+        background-position: 100%;
+    }
+    100%
+    {
+        background-position: 0%;
+    }
+}
+
+@keyframes jump {
+    0%{
+        position: absolute;
+        bottom: 6px;
+    }
+    30%{
+        bottom: 158px;
+    }
+    40%{
+        bottom: 166px;
+    }
+    45%{
+        bottom: 169px;
+    }
+    49.5%{
+        bottom: 169px;
+    }
+    50%{
+        bottom: 170px;
+    }
+    50.5%{
+        bottom: 169px;
+    }
+    55%{
+        bottom: 168px;
+    }
+    60%{
+        bottom: 166px;
+    }
+    70%{
+        bottom: 158px;
+    }
+    100%{
+        bottom: 6px;
+    }
+}
+
+@keyframes longjump {
+    0%{
+        position: absolute;
+        bottom: 6px;
+    }
+    30%{
+        bottom: 220px;
+    }
+    40%{
+        bottom: 230px;
+    }
+    45%{
+        bottom: 237px;
+    }
+    49.5%{
+        bottom: 239px;
+    }
+    50%{
+        bottom: 240px;
+    }
+    50.5%{
+        bottom: 239px;
+    }
+    55%{
+        bottom: 237px;
+    }
+    60%{
+        bottom: 230px;
+    }
+    70%{
+        bottom: 220px;
+    }
+    100%{
+        bottom: 6px;
+    }
+}
+
+@keyframes approach {
+    0%{
+        left: 90%;
+    }
+
+    100%{
+        left: 0%;
+    }
+}
+
+@keyframes trsAnm {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+@keyframes changes {
+    0% {
+        background-image: url(bg1.png);
+    }
+    10% {
+        background-image: url(bg2.png);
+    }
+    20% {
+        background-image: url(bg3.jpg);
+    }
+    30% {
+        background-image: url(bg7.jpg);
+    }
+    40% {
+        background-image: url(bg8.png);
+    }
+    50% {
+        background-image: url(bg9.jpg);
+    }
+    60% {
+        background-image: url(bg14.png);
+    }
+    70% {
+        background-image: url(bg10.jpg);
+    }
+    80% {
+        background-image: url(bg13.png);
+    }
+    90% {
+        background-image: url(bg4.jpg);
+    }
+}
