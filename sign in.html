@@ -67,14 +67,14 @@
             <form action="#">
                 <div class="input-box">
                     <span class="icon">
-                        <ion-icon name="mail"></ion-icon>
+                        <ion-icon name="person"></ion-icon>
                     </span>
                     <input id="username" type="text" required>
                     <label>Username</label>
                 </div>
                 <div class="input-box">
                     <span class="icon">
-                        <ion-icon name="person"></ion-icon>
+                        <ion-icon name="mail"></ion-icon>
                     </span>
                     <input id="email" type="email" required>
                     <label>Email</label>
@@ -102,7 +102,7 @@
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
     import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-analytics.js";
-    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-auth.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-auth.js";
     import { getDatabase, get, set, child, ref, push, onValue } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-database.js";
     // TODO: Add SDKs for Firebase products that you want to use
     // https://firebase.google.com/docs/web/setup#available-libraries
@@ -127,7 +127,7 @@
   const auth = getAuth();
 
 
-
+  
 
 document.getElementById('register').addEventListener('click', ()=> {
 

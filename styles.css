@@ -12,6 +12,7 @@
     width: 1000px;
     height: 500px;
     background-size: cover;
+    z-index: -1;
 }
 
 #game {
@@ -385,6 +386,25 @@
     text-shadow: 3px 0 black;
 }
 
+#SignOut {
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 1px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(38, 212, 64);
+    text-shadow: 1px 1px black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: 900;
+    z-index: 99;
+    font-size: 1.2em;
+}
+
+
 #highscore {
     position: absolute;
     top: 55px;
@@ -483,7 +503,7 @@ body {
 }
 
 .bgInt {
-    background: url(bg1.png);
+    background-image: url(bg1.png);
 }
 
 .backgroundMvt {

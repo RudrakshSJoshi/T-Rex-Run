@@ -323,6 +323,10 @@ if((OJ1Left>110 && OJ1Left<150 && DBottom<=97)
 var NAME = sessionStorage.getItem("username");
 username.innerHTML = NAME;
 
+document.getElementById("SignOut").addEventListener('click', ()=>{
+    window.location.href = "sign in.html";
+})
+
 function HighScore() {
     highscores = sessionStorage.getItem("HIGHSCORE");
     setInterval(() => {
