@@ -34,4 +34,4 @@ TREX RUN is an engaging and nostalgic game where a dinosaur roams around a pixel
 
 ## Development
 
-- **Languages and Tools**: HTML5, CSS3, JavaScript, Firebase
+- **Languages and Tools**: HTML5, CSS3, JavaScript
