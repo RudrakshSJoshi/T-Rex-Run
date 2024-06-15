@@ -29,7 +29,7 @@
     height: 500px;
     width: 1000px;
     position: absolute;
-    background-image: url(GAMEOVER.png);
+    background-image: url(public/GAMEOVER.png);
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 1;
@@ -64,11 +64,11 @@
 }
 
 .dogIdle {
-    background-image: url(dog.png);
+    background-image: url(public/dog.png);
 }
 
 .dogRun {
-    background-image: url(dogAnm.png);
+    background-image: url(public/dogAnm.png);
     animation: run 0.35s steps(2) infinite;
 }*/
 
@@ -88,7 +88,7 @@
     bottom: 0px;
     position: absolute;
     background-size: cover;
-    background-image: url(cloudtransition.png);
+    background-image: url(public/cloudtransition.png);
 }
 
 .trAnimate {
@@ -99,7 +99,7 @@
     position: absolute;
     height: 150px;
     width: 170px;
-    background-image: url(cat\ pic.png);
+    background-image: url(public/cat\ pic.png);
     left: 400px;
     bottom: -28px;
     background-size: cover;
@@ -112,7 +112,7 @@
     left: 320px;
     bottom: 50px;
     background-size: cover;
-    background-image: url(pT78g5aGc.png);
+    background-image: url(public/pT78g5aGc.png);
 }
 
 #obstacleJ1 {
@@ -121,7 +121,7 @@
     position: absolute;
     bottom: 22px;
     left: 930px;
-    background: url(obstacle\ 1\ jungle.png);
+    background: url(public/obstacle\ 1\ jungle.png);
     background-size: cover;
 }
 
@@ -133,7 +133,7 @@
     bottom: 22px;
     left: 930px;
     background-color: transparent;
-    background: url(obstacle\ 2\ jungle.png);
+    background: url(public/obstacle\ 2\ jungle.png);
     background-size: cover;
 }
 
@@ -144,7 +144,7 @@
     bottom: 22px;
     left: 930px;
     background-color: transparent;
-    background-image: url(obstacle\ 3\ jungle.png);
+    background-image: url(public/obstacle\ 3\ jungle.png);
     background-size: cover;
 }
 
@@ -155,7 +155,7 @@
     bottom: 22px;
     left: 930px;
     background-color: transparent;
-    background-image: url(obstacle\ 4\ jungle.png);
+    background-image: url(public/obstacle\ 4\ jungle.png);
     background-size: cover;
 }
 
@@ -167,7 +167,7 @@
     position: absolute;
     bottom: 22px;
     left: 930px;
-    background: url(obstacle\ 1\ city.png);
+    background: url(public/obstacle\ 1\ city.png);
     background-size: cover;
 }
 
@@ -179,7 +179,7 @@
     bottom: 22px;
     left: 930px;
     background-color: transparent;
-    background: url(obstacle\ 2\ city.png);
+    background: url(public/obstacle\ 2\ city.png);
     background-size: cover;
 }
 
@@ -190,7 +190,7 @@
     bottom: 22px;
     left: 930px;
     background-color: transparent;
-    background-image: url(obstacle\ 3\ city.png);
+    background-image: url(public/obstacle\ 3\ city.png);
     background-size: cover;
 }
 
@@ -201,7 +201,7 @@
     bottom: 22px;
     left: 930px;
     background-color: transparent;
-    background-image: url(obstacle\ 4\ city.png);
+    background-image: url(public/obstacle\ 4\ city.png);
     background-size: cover;
 }
 
@@ -211,7 +211,7 @@
     position: absolute;
     bottom: 22px;
     left: 930px;
-    background: url(obstacle\ 1\ space.png);
+    background: url(public/obstacle\ 1\ space.png);
     background-size: cover;
 }
 
@@ -223,7 +223,7 @@
     bottom: 22px;
     left: 930px;
     background-color: transparent;
-    background: url(obstacle\ 2\ space.png);
+    background: url(public/obstacle\ 2\ space.png);
     background-size: cover;
 }
 
@@ -234,7 +234,7 @@
     bottom: 22px;
     left: 930px;
     background-color: transparent;
-    background-image: url(obstacle\ 3\ space.png);
+    background-image: url(public/obstacle\ 3\ space.png);
     background-size: cover;
 }
 
@@ -245,7 +245,7 @@
     bottom: 22px;
     left: 930px;
     background-color: transparent;
-    background-image: url(obstacle\ 4\ space.png);
+    background-image: url(public/obstacle\ 4\ space.png);
     background-size: cover;
 }
 
@@ -269,7 +269,7 @@
     border: 2px solid rgb(0, 0, 0);
     text-align: center;
     color: yellow;
-    background-image: url(jupiter.jpg);
+    background-image: url(public/jupiter.jpg);
     background-size: contain;
     font-weight: 1000;
     user-select: none;
@@ -346,7 +346,7 @@
     position: absolute;
     height: 500px;
     width: 1000px;
-    background-image: url(pixel-world-1212023.png);
+    background-image: url(public/pixel-world-1212023.png);
     background-size: cover;
     opacity: 1;
 }
@@ -422,7 +422,7 @@
     width: 800px;
     background-size: contain;
     background-position: center;
-    background-image: url(GAMEOVER.png);
+    background-image: url(public/GAMEOVER.png);
     left: 100px;
     opacity: 1;
 }
@@ -432,7 +432,7 @@
     width: 1000px;
     height: 20px;
     bottom: 0px;
-    background-image: url(road\ final\ game.png);
+    background-image: url(public/road\ final\ game.png);
     background-size: contain;
 }
 
@@ -450,7 +450,7 @@
 }
 
 body {
-    background-image: url(anime-girl-city-building-height-4k-tc.jpg);
+    background-image: url(public/anime-girl-city-building-height-4k-tc.jpg);
     overflow: hidden;
     background-size: cover;
     padding: 0;
@@ -467,21 +467,21 @@ body {
 
 .animationJump {
     bottom: 6px;
-    background-image: url(dinojump.png);
+    background-image: url(public/dinojump.png);
     background-size: cover;
     animation: jump 0.5s linear;
 }
 
 .animationLongJump {
     bottom: 6px;
-    background-image: url(dinojump.png);
+    background-image: url(public/dinojump.png);
     background-size: cover;
     animation: longjump 0.75s linear;
 }
 
 .animationRun {
     bottom: 6px;
-    background-image: url([removal.ai]_tmp-6402eb491b1dc.png);
+    background-image: url(public/[removal.ai]_tmp-6402eb491b1dc.png);
     background-size: cover;
     animation: walk 0.55s steps(5) infinite;
     background-color: transparent;
@@ -489,7 +489,7 @@ body {
 
 .animationIdle {
     bottom: 6px;
-    background-image: url(gaming_DinoSprites_idle-removebg-preview.png);
+    background-image: url(public/gaming_DinoSprites_idle-removebg-preview.png);
     background-size: cover;
     animation: walk 0.35s steps(3) infinite;
 }
@@ -503,7 +503,7 @@ body {
 }
 
 .bgInt {
-    background-image: url(bg1.png);
+    background-image: url(public/bg1.png);
 }
 
 .backgroundMvt {
@@ -511,7 +511,7 @@ body {
 }
 
 .cloud1Mvt {
-    background-image: url(cloud\ 1.png);
+    background-image: url(public/cloud\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 1000px;
@@ -522,7 +522,7 @@ body {
 }
 
 .cloud2Mvt {
-    background-image: url(cloud\ 1.png);
+    background-image: url(public/cloud\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 1000px;
@@ -690,33 +690,33 @@ body {
 
 @keyframes changes {
     0% {
-        background-image: url(bg1.png);
+        background-image: url(public/bg1.png);
     }
     10% {
-        background-image: url(bg2.png);
+        background-image: url(public/bg2.png);
     }
     20% {
-        background-image: url(bg3.jpg);
+        background-image: url(public/bg3.jpg);
     }
     30% {
-        background-image: url(bg7.jpg);
+        background-image: url(public/bg7.jpg);
     }
     40% {
-        background-image: url(bg8.png);
+        background-image: url(public/bg8.png);
     }
     50% {
-        background-image: url(bg9.jpg);
+        background-image: url(public/bg9.jpg);
     }
     60% {
-        background-image: url(bg14.png);
+        background-image: url(public/bg14.png);
     }
     70% {
-        background-image: url(bg10.jpg);
+        background-image: url(public/bg10.jpg);
     }
     80% {
-        background-image: url(bg13.png);
+        background-image: url(public/bg13.png);
     }
     90% {
-        background-image: url(bg4.jpg);
+        background-image: url(public/bg4.jpg);
     }
 }

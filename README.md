@@ -11,6 +11,10 @@ TREX RUN is an engaging and nostalgic game where a dinosaur roams around a pixel
 - **Increasing Difficulty and Speed**: As you progress, the game becomes more challenging with faster speeds and more obstacles.
 - **Infinite Levels**: Keep playing endlessly as the levels are procedurally generated, providing a fresh experience each time you play.
 
+## Demo Look
+
+![DemoGIF](demo_data/demo-gif.gif)
+
 ## Gameplay
 
 - **Objective**: Guide the dinosaur to jump over obstacles and survive as long as possible.

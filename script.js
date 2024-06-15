@@ -235,11 +235,11 @@ function Level() {
 function ScoreUpdate() {
     if(gameover.classList !="hideDisplay") {
         clearInterval(SCORE);
-        score.innerHTML = scores;
+        score.innerHTML = "Score: " + scores;
     }
     else {
         scores+=1;
-        score.innerHTML = scores;
+        score.innerHTML = "Score: " + scores;
     }
     }
 
@@ -323,12 +323,11 @@ if((OJ1Left>110 && OJ1Left<150 && DBottom<=97)
 var NAME = sessionStorage.getItem("username");
 username.innerHTML = NAME;
 
-document.getElementById("SignOut").addEventListener('click', ()=>{
-    window.location.href = "sign in.html";
-})
-
 function HighScore() {
     highscores = sessionStorage.getItem("HIGHSCORE");
+    if (highscores === null || highscores === undefined) {
+        highscores = 0; // Set highscores to 0 if it's null or undefined
+    }
     setInterval(() => {
         if(highscores < scores) {
             highscores = scores;
